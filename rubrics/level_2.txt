@@ -1,0 +1,10 @@
+DESCRIPTION: Promotes deeper thinking and engagement with core disciplinary concepts by offering thought-provoking prompts, elaborations, or meaningful extensions to related topics or broader contexts.
+
+RUBRIC:
+Strong (2): Promotes deeper thinking and engagement with core disciplinary concepts by offering thought-provoking prompts, elaborations, or meaningful extensions to related topics or broader contexts.
+
+Weak (1): Shows intent to deepen understanding but relies on broad or generic comments without engaging directly with the content of the student’s post.
+
+Not Present (0):  Makes no attempt to extend or deepen disciplinary understanding.
+
+Not Applicable (NA): Deepening disciplinary understanding is not relevant to the context of the student’s post.

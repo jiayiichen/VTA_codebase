@@ -1,0 +1,10 @@
+DESCRIPTION: Fosters peer interaction and collective learning by connecting diverse student perspectives, encouraging the exchange of ideas, and supporting collaborative knowledge construction, positioning the discussion forum as a shared space for dialogue and co-construction of understanding.
+
+RUBRIC:
+Strong (2): Encourages meaningful peer interaction by referencing specific student ideas, connecting perspectives, or inviting others to build on the content in a way that is personalized and contextually relevant.
+
+Weak (1): Shows intent to promote interaction but only through generic invitations (e.g., “Anyone else agree?”), without engaging with specific content or student ideas.
+
+Not Present (0): Makes no attempt to foster collaboration or social presence.
+
+Not Applicable (NA): Collaborative engagement is not relevant to the context of the student’s post.

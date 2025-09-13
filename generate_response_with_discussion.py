@@ -201,8 +201,12 @@ def main():
     df_content = pandas.read_parquet("discussion_post_19_24_content.parquet.gzip")
     df_academic = pandas.read_excel("300_revised_with_context.xlsx")
     
+    df_academic = classify_context_dependence(df_academic)
+    
     records = json.loads(df_academic.to_json(orient="records"))
     for i, row in tqdm.tqdm(enumerate(records)):
+        if records["context_independence"] == 0:
+            continue
         # Get the discussion topic id
         metadata = df_meta.loc[df_meta["discussion_post_id"] == row["discussion_post_id"]] 
         discussion_topic_id = list(metadata["discussion_topic_id"])[0]

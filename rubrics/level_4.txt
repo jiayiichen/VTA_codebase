@@ -1,0 +1,10 @@
+DESCRIPTION: Supports students in recognizing their own understanding and thinking processes by using prompts that encourage reflection, self-assessment, or awareness of learning strategies.
+
+RUBRIC:
+Strong (2): Encourages metacognition through content-based reflective questions or strategies that help students assess their own understanding in a meaningful context.
+
+Weak (1): Suggests reflection or self-monitoring but only through vague, generic language (e.g., “Think about what you’ve learned”) without tailoring to the student’s content.
+
+Not Present (0): No effort is made to support metacognitive awareness.
+
+Not Applicable (NA): Not relevant to the context of the student’s post.

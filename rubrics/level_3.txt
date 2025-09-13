@@ -1,0 +1,10 @@
+DESCRIPTION: Encourages students to actively apply higher-order thinking, such as analysis, evaluation, or critical reflection.
+
+RUBRIC:
+Strong (2): Promotes higher-order thinking through specific, content-grounded prompts or reasoning tasks that challenge students to analyze, evaluate, or reflect.
+
+Weak (1): Uses generic or unspecific prompts (e.g., “What do you think about this?”) that suggest higher-order thinking but lack depth or relevance to the content.
+
+Not Present (0): No effort is made to promote higher-order thinking.
+
+Not Applicable (NA): Higher-order thinking is not relevant to the context of the student’s post.

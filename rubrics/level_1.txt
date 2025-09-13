@@ -1,0 +1,10 @@
+DESCRIPTION: Effectively identifies and addresses confusion, misconceptions, or inaccuracies in the student’s post. Provides clear, pedagogically appropriate, and effective explanations using strategies such as examples, analogies, or step-by-step guidance to clarify concepts and resolve questions.
+
+RUBRIC:
+Strong (2): Accurately identifies the student's misunderstanding and provides a clear, contextualized explanation using relevant content, and examples.
+
+Weak (1): Attempts to address the question or confusion, but the explanation is vague, partially relevant, or lacks clarity. 
+
+Not Present (0): Does not recognize or respond to the student’s misunderstanding or question.
+
+Not Applicable (NA):No misunderstanding or question is present in the student’s post.
