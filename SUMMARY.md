@@ -11,11 +11,10 @@ A RAG system for VTA that:
 - Shows best match even when below threshold with low-confidence warning
 - Prevents duplicate processing by checking if posts already exist in database
 
-## Next Steps
+## Next Steps (update after 10.20. meeting)
 
-1. **Scale up post data** to 30+ posts (5 for now) and validate retrieval quality with diverse queries
-2. **Handle images in posts** using vision language models 
-3. **API integration** with existing student post retrieval 
+1. Adjust similarity threshold to 0.7
+2. Handle images in posts using vision language models 
 
 ## Final Codebase
 
