@@ -5,8 +5,8 @@
 - `optimize_classifier_level1.ipynb`: We used the same code for all levels, here we use level1 as an example. This notebook would extract training and validation examples, and then optimize prompts for the pedagogical assessment classifier using DSPy.
 - `synthetic_data.ipynb`: Data synthesis code we used to create the training data for our open-weight classifiers.
 
-## RAG system retrieving both files and posts
-- current data are retrived by the VTA interface I worked on last week (10.12.)
+## RAG system retrieving both files and posts (10.19.)
+### Current posts data are retrieved via VTA interface done last week (10.12.)
 - **`rag_system.py`** - Main RAG system
 - **`pdf_processor.py`** - PDF extraction with markdown conversion
 - **`cost_estimator.py`** - Cost tracking
