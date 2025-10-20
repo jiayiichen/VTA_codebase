@@ -6,6 +6,7 @@
 - `synthetic_data.ipynb`: Data synthesis code we used to create the training data for our open-weight classifiers.
 
 ## RAG system retrieving both files and posts
+- current data are retrived by the VTA interface I worked on last week (10.12.)
 - **`rag_system.py`** - Main RAG system
 - **`pdf_processor.py`** - PDF extraction with markdown conversion
 - **`cost_estimator.py`** - Cost tracking
