@@ -7,9 +7,10 @@
 
 ## RAG system retrieving both files and posts (10.19.)
 ### Current posts data are retrieved via VTA interface done last week (10.12.)
-### Check Summary.md file for progress details
 - **`rag_system.py`** - Main RAG system
 - **`pdf_processor.py`** - PDF extraction with markdown conversion
 - **`cost_estimator.py`** - Cost tracking
 - **`config_loader.py`** - Secure config management
 - **`demo.py`** - Complete demonstration
+
+### Check Summary.md file for progress details
