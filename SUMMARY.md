@@ -26,18 +26,6 @@ A RAG system for VTA that:
 4. **`config_loader.py`** - Secure config management
 5. **`demo.py`** - Complete demonstration
 
-### Configuration Files
-- `config.json` - API keys (gitignored)
-- `config.json.template` - Setup template
-- `.gitignore` - Security
-
-## Demo Results
-
-Uses posts from `posts/dashboard.json` (5 posts, 1 PDF)
-
-**Query:** "When can we get assignment 2 solutions?"
-→ Returns POST "a2 solutions #224" (with a2_sol.pdf attachment)
-
 ## How to Run
 
 ```bash
@@ -49,19 +37,24 @@ cp config.json.template config.json
 python3 demo.py
 ```
 
-## Integration with Ed Platform
+# 10.26. Week Deliverable Summary
 
-```python
-from rag_system import PostRAGSystem
+## What Was Built
 
-# Initialize
-rag = PostRAGSystem()
+Added ColPali visual retrieval system that:
+- Uses ColQwen2-v1.0 vision model for image-based PDF and image processing
+- Hybrid approach: text posts use OpenAI embeddings (same as before), PDFs/images use ColQwen2 vision embeddings
+- Stores embeddings in pickle files (texts.pkl for text, images.pkl for visual content)
+- Auto-detects file types (PDF vs image) and processes accordingly
+- Optimized for GPU (CUDA) with CPU fallback for Apple Silicon
 
-# Add posts (from interface folder or posts/dashboard.json)
-for post in posts:
-    rag.add_post(post, base_dir='posts')
+## System Comparison
 
-# Query
-results = rag.retrieve("student question", n_results=5)
-```
-
+| Feature | Original (rag_system.py) | ColPali (colpali_rag_system.py) |
+|---------|-------------------------|----------------------------------|
+| Post text | OpenAI embeddings | OpenAI embeddings (same) |
+| PDFs | Text extraction → OpenAI | Images → ColQwen2 vision |
+| Images | Filename only | Full visual processing |
+| Speed | Fast (seconds) | Slow CPU / Fast GPU |
+| Cost | ~$0.02/year | $0 (local) |
+| Storage | ChromaDB | Pickle files |

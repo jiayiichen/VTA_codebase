@@ -13,4 +13,11 @@
 - **`config_loader.py`** - Secure config management
 - **`demo.py`** - Complete demonstration
 
+## ColPali System Files (10.26.)
+
+1. **`colpali_processor.py`** - ColQwen2 vision model processor for PDFs and images
+2. **`colpali_rag_system.py`** - Hybrid RAG system (text + images)
+3. **`demo_colpali.py`** - Demo script for ColPali system
+4. **`colpali_demo_colab.ipynb`** - Google Colab notebook for GPU processing
+
 ### Check Summary.md file for progress details
